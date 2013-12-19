@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 
+group :production do
+  gem 'pg', '0.12.2'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
